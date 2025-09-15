@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Освещение для школ и детских садов - Профессиональные решения</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <h1>EduLight</h1>
+                    <span>Профессиональное освещение</span>
+                </div>
+                <nav class="nav">
+                    <a href="#advantages">Преимущества</a>
+                    <a href="#case">Кейс</a>
+                    <a href="#contact">Контакты</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h2 class="hero-title">Освещение для школ и детских садов</h2>
+                <p class="hero-subtitle">Создаем комфортную и безопасную образовательную среду с помощью современных световых решений</p>
+                <div class="hero-features">
+                    <div class="feature-item">
+                        <span class="feature-icon">💡</span>
+                        <span>Энергоэффективность</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="feature-icon">🛡️</span>
+                        <span>Безопасность</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="feature-icon">📚</span>
+                        <span>Комфорт для глаз</span>
+                    </div>
+                </div>
+                <button class="cta-button" onclick="scrollToForm()">Получить консультацию</button>
+            </div>
+            <div class="hero-image">
+                <div class="image-placeholder">
+                    <span>🏫</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Advantages Section -->
+    <section id="advantages" class="advantages">
+        <div class="container">
+            <h2 class="section-title">Наши преимущества</h2>
+            <div class="advantages-grid">
+                <div class="advantage-card">
+                    <div class="advantage-icon">⚡</div>
+                    <h3>Энергосбережение</h3>
+                    <p>LED-светильники снижают потребление электроэнергии до 70% по сравнению с традиционными лампами</p>
+                </div>
+                <div class="advantage-card">
+                    <div class="advantage-icon">👁️</div>
+                    <h3>Защита зрения</h3>
+                    <p>Специально разработанный спектр света снижает усталость глаз и повышает концентрацию внимания</p>
+                </div>
+                <div class="advantage-card">
+                    <div class="advantage-icon">🔧</div>
+                    <h3>Простота обслуживания</h3>
+                    <p>Долгий срок службы и минимальные требования к техническому обслуживанию</p>
+                </div>
+                <div class="advantage-card">
+                    <div class="advantage-icon">📊</div>
+                    <h3>Соответствие нормам</h3>
+                    <p>Полное соответствие санитарным нормам и требованиям для образовательных учреждений</p>
+                </div>
+                <div class="advantage-card">
+                    <div class="advantage-icon">🎛️</div>
+                    <h3>Умное управление</h3>
+                    <p>Возможность регулировки яркости и цветовой температуры в зависимости от времени суток</p>
+                </div>
+                <div class="advantage-card">
+                    <div class="advantage-icon">💰</div>
+                    <h3>Экономия бюджета</h3>
+                    <p>Быстрая окупаемость инвестиций за счет снижения расходов на электроэнергию</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Case Study Section -->
+    <section id="case" class="case-study">
+        <div class="container">
+            <h2 class="section-title">Кейс: Школа №123</h2>
+            <div class="case-content">
+                <div class="case-info">
+                    <h3>Задача</h3>
+                    <p>Модернизировать систему освещения в 24 учебных классах, 3 спортзалах и 2 столовых. Требовалось обеспечить соответствие санитарным нормам и снизить энергопотребление.</p>
+                    
+                    <h3>Решение</h3>
+                    <p>Установили 180 LED-светильников с регулируемой яркостью и цветовой температурой. Интегрировали систему умного управления освещением.</p>
+                    
+                    <h3>Результат</h3>
+                    <div class="results">
+                        <div class="result-item">
+                            <span class="result-number">65%</span>
+                            <span class="result-text">снижение энергопотребления</span>
+                        </div>
+                        <div class="result-item">
+                            <span class="result-number">2.5 года</span>
+                            <span class="result-text">срок окупаемости</span>
+                        </div>
+                        <div class="result-item">
+                            <span class="result-number">95%</span>
+                            <span class="result-text">удовлетворенность учителей</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="case-image">
+                    <div class="image-placeholder">
+                        <span>📈</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section id="contact" class="contact-form">
+        <div class="container">
+            <h2 class="section-title">Получите бесплатную консультацию</h2>
+            <p class="form-subtitle">Оставьте заявку и наш специалист свяжется с вами в течение 30 минут</p>
+            <form class="form" id="consultationForm">
+                <div class="form-group">
+                    <label for="name">Ваше имя *</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Телефон *</label>
+                    <input type="tel" id="phone" name="phone" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email">
+                </div>
+                <div class="form-group">
+                    <label for="institution">Название учреждения</label>
+                    <input type="text" id="institution" name="institution">
+                </div>
+                <div class="form-group">
+                    <label for="rooms">Количество помещений</label>
+                    <select id="rooms" name="rooms">
+                        <option value="">Выберите количество</option>
+                        <option value="1-5">1-5 помещений</option>
+                        <option value="6-15">6-15 помещений</option>
+                        <option value="16-30">16-30 помещений</option>
+                        <option value="30+">Более 30 помещений</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="message">Дополнительная информация</label>
+                    <textarea id="message" name="message" rows="4" placeholder="Опишите ваши потребности и особенности помещения"></textarea>
+                </div>
+                <button type="submit" class="submit-button">Отправить заявку</button>
+                <p class="form-note">Нажимая кнопку "Отправить заявку", вы соглашаетесь с обработкой персональных данных</p>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <h3>EduLight</h3>
+                    <p>Профессиональные решения освещения для образовательных учреждений</p>
+                </div>
+                <div class="footer-contact">
+                    <h4>Контакты</h4>
+                    <p>📞 +7 (495) 123-45-67</p>
+                    <p>✉️ info@edulight.ru</p>
+                    <p>📍 Москва, ул. Образовательная, 15</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 EduLight. Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
